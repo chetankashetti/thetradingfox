@@ -20,7 +20,7 @@ describe('PnL logic', () => {
     resetTradesForTest();
   });
 
-  test('matches the assignment example exactly', () => {
+  test('example scenario: two buys then one sell (FIFO)', () => {
     addTrade(
       makeTrade({
         id: '1',

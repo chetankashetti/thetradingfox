@@ -127,7 +127,7 @@ Implementation uses **Node.js + Express + TypeScript**, with an in-memory store 
   }
   ```
 
-### End-to-end example (matches assignment)
+### End-to-end example
 
 With the server running on `localhost:3000`, run:
 

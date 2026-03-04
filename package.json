@@ -1,7 +1,7 @@
 {
   "name": "portfolio-pnl-backend",
   "version": "1.0.0",
-  "description": "Take-home assignment: portfolio and PnL tracker backend using Node.js, Express, and TypeScript.",
+  "description": "Portfolio and PnL tracker backend using Node.js, Express, and TypeScript.",
   "main": "dist/src/server.js",
   "scripts": {
     "build": "tsc",
