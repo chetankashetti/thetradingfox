@@ -1,0 +1,19 @@
+info:
+  name: pnl
+  type: http
+  seq: 3
+
+http:
+  method: get
+  url: http://localhost:3000/pnl?BTC=44000
+  params:
+    - name: BTC
+      value: "44000"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

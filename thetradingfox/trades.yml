@@ -1,0 +1,15 @@
+info:
+  name: trades
+  type: http
+  seq: 1
+
+http:
+  method: get
+  url: http://localhost:3000/trades
+  auth: inherit
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

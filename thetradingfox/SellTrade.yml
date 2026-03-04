@@ -1,0 +1,30 @@
+info:
+  name: SellTrade
+  type: http
+  seq: 5
+  description: Requires an existing long position (run BuyTrade first). Otherwise returns INSUFFICIENT_POSITION.
+
+http:
+  method: post
+  url: http://localhost:3000/trades
+  headers:
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "id": "3",
+        "symbol": "BTC",
+        "side": "sell",
+        "price": 43000,
+        "quantity": 1,
+        "timestamp": "2021-01-03T00:00:00.000Z"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

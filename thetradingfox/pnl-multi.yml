@@ -1,0 +1,16 @@
+info:
+  name: pnl (multi-symbol overrides)
+  type: http
+  seq: 6
+  description: PnL with price overrides for multiple symbols (BTC and ETH).
+
+http:
+  method: get
+  url: http://localhost:3000/pnl?BTC=44000&ETH=2100
+  auth: inherit
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
